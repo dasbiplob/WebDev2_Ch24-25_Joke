@@ -1,6 +1,9 @@
 <script>
+    import Binding from "../components/Binding.svelte";
+import Event from "../components/Event.svelte";
 import Joke from "../components/Joke.svelte";
 import Joke1 from "../components/Joke1.svelte";
+    import KeyBoard from "../components/KeyBoard.svelte";
 </script>
 
 
@@ -9,3 +12,6 @@ import Joke1 from "../components/Joke1.svelte";
 
 <Joke1 />
 <Joke />
+<Event />
+<KeyBoard />
+<Binding />
