@@ -5,6 +5,9 @@ import Event from "../components/Event.svelte";
 import Joke from "../components/Joke.svelte";
 import Joke1 from "../components/Joke1.svelte";
     import KeyBoard from "../components/KeyBoard.svelte";
+    import StateAndLIst from "../components/StateAndLIst.Svelte";
+
+    import StateManagement from "../components/StateManagement.svelte";
 </script>
 
 
@@ -17,3 +20,5 @@ import Joke1 from "../components/Joke1.svelte";
 <KeyBoard />
 <Binding />
 <CheckingPassword />
+<StateManagement />
+<StateAndLIst />

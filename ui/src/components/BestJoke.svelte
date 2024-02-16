@@ -19,10 +19,6 @@
   afterUpdate(() => {
     console.log("Update done..");
   });
-
-  onDestroy(() => {
-    console.log(JSON.stringify(joke));
-  });
 </script>
 
 <p>The best joke that I know is:</p>
