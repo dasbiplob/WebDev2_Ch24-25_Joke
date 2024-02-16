@@ -1,5 +1,6 @@
 <script>
     import Binding from "../components/Binding.svelte";
+    import CheckingPassword from "../components/CheckingPassword.svelte";
 import Event from "../components/Event.svelte";
 import Joke from "../components/Joke.svelte";
 import Joke1 from "../components/Joke1.svelte";
@@ -15,3 +16,4 @@ import Joke1 from "../components/Joke1.svelte";
 <Event />
 <KeyBoard />
 <Binding />
+<CheckingPassword />
